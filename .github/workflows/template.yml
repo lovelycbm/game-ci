@@ -63,7 +63,7 @@ jobs:
       matrix:
         targetPlatform:
           - StandaloneOSX # Build a macOS standalone (Intel 64-bit).
-          # - StandaloneWindows # Build a Windows standalone.
+          #- StandaloneWindows # Build a Windows standalone.
           # - StandaloneWindows64 # Build a Windows 64-bit standalone.
           # - StandaloneLinux64 # Build a Linux 64-bit standalone.
           - iOS # Build an iOS player.
@@ -284,7 +284,7 @@ jobs:
   #        working-directory: build/WebGL
   #
   #      - name: Deploy 🚀
-  #        uses: JamesIves/github-pages-deploy-action@4.1.4
+  #        uses: genie-soft/github-pages-deploy-action@4.1.4
   #        with:
   #          branch: gh-pages
   #          folder: build/WebGL
